@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.9)  10 JUN 2020 12:26
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.11.12)  12 NOV 2020 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,8 +9,8 @@ L3 programming layer <2020-03-06> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count163
 \c@section=\count164
@@ -530,12 +530,12 @@ LaTeX Info: Redefining \selectfont on input line 79.
 * \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=8.5359pt
-* \marginparwidth=35.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -615,32 +615,37 @@ input line 79.
 LaTeX Font Warning: Font shape `TU/UnBatang.ttf(0)/m/sc' undefined
 (Font)              using `TU/UnBatang.ttf(0)/m/n' instead on input line 81.
 
-(./resume/education.tex
+(./resume/summary.tex) (./resume/education.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 17.
+(Font)              scaled to size 10.95116pt on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40088pt on input line 17.
+(Font)              scaled to size 7.6658pt on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 17.
+(Font)              scaled to size 5.47559pt on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 17.
+(Font)              scaled to size 10.94882pt on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 17.
+(Font)              scaled to size 7.66417pt on input line 17.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 17.
+(Font)              scaled to size 5.47441pt on input line 17.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 17.
+
+
+LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 17.
+
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 17.
-) (./resume/committees.tex) (./resume/research.tex)
-(./resume/experience.tex [1
+) (./resume/research.tex) (./resume/experience.tex [1
 
-]) (./resume/writing.tex) (./resume/skills.tex
-Overfull \hbox (63.64247pt too wide) in alignment at lines 10--26
+]) (./resume/writing.tex)
+(./resume/committees.tex) (./resume/skills.tex
+Overfull \hbox (62.11157pt too wide) in alignment at lines 10--26
 [] [] 
  []
 
@@ -659,11 +664,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21899 strings out of 479418
- 361771 string characters out of 5884586
- 788685 words of memory out of 5000000
- 39078 multiletter control sequences out of 15000+600000
- 535108 words of font info for 110 fonts, out of 8000000 for 9000
+ 21902 strings out of 479418
+ 361983 string characters out of 5884584
+ 789685 words of memory out of 5000000
+ 39080 multiletter control sequences out of 15000+600000
+ 535118 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,11n,112p,797b,2586s stack positions out of 5000i,500n,10000p,200000b,80000s
 
