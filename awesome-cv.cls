@@ -418,8 +418,8 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{3mm}
-\newcommand{\acvSectionContentTopSkip}{2.5mm}
+\newcommand{\acvSectionTopSkip}{1mm}
+\newcommand{\acvSectionContentTopSkip}{1.5mm}
 
 
 %-------------------------------------------------------------------------------
@@ -660,8 +660,8 @@
   \end{center}
 }
 % Define an entry of cv information
-% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
-\newcommand*{\cventry}[5]{%
+% Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}{<skills>}
+\newcommand*{\cventry}[6]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
@@ -670,6 +670,9 @@
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \ifstrempty{#6}
+      {}
+      {\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}} \\}
     \ifstrempty{#5}
       {}
       {\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\}
@@ -707,7 +710,7 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4.0cm} R{2.5cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1cm} L{\textwidth - 3.0cm} R{2cm}}
 }{%
     \end{tabular*}
   \end{center}
